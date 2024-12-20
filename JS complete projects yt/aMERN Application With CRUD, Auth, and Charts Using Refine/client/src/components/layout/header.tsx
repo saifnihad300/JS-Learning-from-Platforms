@@ -53,14 +53,3 @@ import { LayoutProps } from "@refinedev/core";
   );
 };
 
-/* export const ThemedHeaderV2: React.FC<LayoutProps> = ({ children, Header }) => {
-  console.log("ThemeHeaderV2 Rendered");
-
-  return (
-      <div>
-          <h1>Custom Header Layout</h1>
-          {Header && <Header />}
-          <div>{children || "No children passed"}</div>
-      </div>
-  );
-}; */
