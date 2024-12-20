@@ -16,15 +16,13 @@ app.get('/', (req, res) =>{
     res.send({message: "Hello world!"});
 })
 
-//middleware
-
 app.use('/api/v1/users', userRouter)
 app.use('/api/v1/properties', propertyRouter)
 
 const startServer = async ()=>{
     try{
         connectdb(process.env.MONGODB_URL)
-        app.listen(8080, ()=>{console.log('server started successfully')})
+        app.listen(8080, ()=>{console.log('server started successfully at port 8080')})
     }catch{
         console.log("error");
     }
