@@ -199,7 +199,6 @@ axiosInstance.interceptors.request.use((request: InternalAxiosRequestConfig) => 
 
    return (
      <BrowserRouter>
-      <GitHubBanner />
       <RefineKbarProvider>
         <ColorModeContextProvider>
           <CssBaseline />
@@ -308,7 +307,7 @@ axiosInstance.interceptors.request.use((request: InternalAxiosRequestConfig) => 
                 <UnsavedChangesNotifier />
                 <DocumentTitleHandler />
               </Refine>
-              <DevtoolsPanel />
+              
             </DevtoolsProvider>
           </RefineSnackbarProvider>
         </ColorModeContextProvider>
