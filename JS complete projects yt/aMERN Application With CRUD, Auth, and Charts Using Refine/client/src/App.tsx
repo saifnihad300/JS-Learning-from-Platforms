@@ -283,7 +283,7 @@ axiosInstance.interceptors.request.use((request: InternalAxiosRequestConfig) => 
                       <Route index element={<AllProperties />} />
                       <Route path="create" element={<CreateProperty />} />
 {/*                   <Route path="edit/:id" element={<BlogPostEdit />} />
-                      <Route path="show/:id" element={<BlogPostShow />} />  */}
+                      <Route path="show/:id" element={<BlogPostShow />} />  */} 
                     </Route>
 
 
